@@ -1,0 +1,73 @@
+.section{
+    &.section-shipping-recp{
+        position: relative;
+        background: #f2f2f2;
+        border-radius: 6px;
+        padding: 20px;
+        .section-header{
+            font-size: 16px;
+            font-weight: 500
+        }
+        p{
+            line-height: 1.5;
+            color:rgba(0,0,0,0.75);
+            font-weight: 400;
+            font-size: 0.95em;
+            a{
+                position: absolute;
+                right: 0;
+                top:0;
+                color:#1990C6;
+                margin: 20px;
+                font-size: 12px 
+            }
+        }
+    }
+    &.section-shipping-method{
+        padding-top:2em;
+         .sc-delivery{
+            margin-top:24px;
+            font-size: 14px
+        }
+    }
+    .content-box{
+        border: 1px solid #d9d9d9;
+        border-radius: 4px;
+        .content-box-row {
+            padding: 1.3em;
+            border-top: 1px solid #d9d9d9;
+            &:first-of-type{
+                border-radius: 4px 4px 0 0;
+                border-top: none;
+            }
+            &:last-of-type{
+                border-radius: 0 0 4px 4px;
+            }
+            .content-box-row-wrap{
+                display: table;
+                box-sizing: border-box;
+                width: 100%;
+            }
+            .radio-box{
+                display: table-cell;
+                padding-right: 0.75em;
+            }
+            label{
+                display: table-cell;
+                vertical-align: middle;
+                width: 100%;
+                span{
+                    display: table-cell;
+                    vertical-align: middle
+                }
+                span:first-of-type{
+                    width:100%
+                }
+                span:last-of-type{
+                    padding-left: 1em
+                }
+            }
+        }
+    }
+    
+}

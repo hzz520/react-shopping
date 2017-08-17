@@ -1,0 +1,21 @@
+export const HEADER_STYLE_WHITE = 'HEADER_STYLE_WHITE';             //头部样式-白色
+export const HEADER_STYLE_RELATIVE = 'HEADER_STYLE_RELATIVE';       //头部样式-相对
+export const HEADER_STYLE_OPACITY = 'HEADER_STYLE_OPACITY';         //头部样式-透明度
+export const SCROLLED = 'SCROLLED';                                 //是否滑动
+export const SCROLL_TOP = 'SCROLL_TOP';                             //滑动顶部
+export const SCREEN_WIDTH = 'SCREEN_WIDTH';                         //屏幕宽度
+export const HEADER_CART_STATUS = 'HEADER_CART_STATUS';             //购物车状态
+export const OFFSET_TOPS = 'OFFSET_TOPS';
+export const RECEIVE_PRODUCTS = 'RECEIVE_PRODUCTS';                 //接收到产品
+export const ADD_TO_CART = 'ADD_TO_CART';                           //加入购入车
+export const CHECKOUT_REQUEST = 'CHECKOUT_REQUEST';
+export const CHECKOUT_FAILURE = 'CHECKOUT_FAILURE';
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART';
+export const RECEIVE_SHIPPING_ADDRESS = 'RECEIVE_SHIPPING_ADDRESS';
+export const RECEIVE_EMAIL_ADDRESS = 'RECEIVE_EMAIL_ADDRESS';
+export const RECEIVE_CARD_INFO = 'RECEIVE_CARD_INFO';
+export const RECEIVE_BILLING_ADDRESS = 'RECEIVE_BILLING_ADDRESS';
+export const CHANGE_VALUE_BY_NAME = 'CHANGE_VALUE_BY_NAME';
+export const RESET_SHIPPING_ADDRESS = 'RESET_SHIPPING_ADDRESS';
+export const OBEY_NEGOTIATE = 'OBEY_NEGOTIATE';
+

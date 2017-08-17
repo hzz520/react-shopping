@@ -1,0 +1,178 @@
+{
+    "products":[
+        {"id":1,"name":"Spectacles","price":129.9,"color":"Coral","description":"Includes charging case and cable","image":"https://cdn.shopify.com/s/files/1/1704/4559/products/Cart_Coral_medium.png?v=1485469399"},
+        {"id":2,"name":"Spectacles","price":129.9,"color":"Black","description":"Includes charging case and cable","image":"https://cdn.shopify.com/s/files/1/1704/4559/products/Cart_Black_medium.png?v=1485469399"},
+        {"id":3,"name":"Spectacles","price":129.9,"color":"Teal","description":"Includes charging case and cable","image":"https://cdn.shopify.com/s/files/1/1704/4559/products/Cart_Teal_medium.png?v=1485469399"},
+        {"id":4,"name":"Charging Case","price":49.9,"image":"https://cdn.shopify.com/s/files/1/1704/4559/products/Cart_Case_medium.png?v=1485469386"},
+        {"id":5,"name":"Charging Cable","price":9.9,"image":"https://cdn.shopify.com/s/files/1/1704/4559/products/cable_cart_medium.png?v=1487183466g"}
+    ],
+    "shippingAddress":[
+        {
+            "filedType":"filed-half",
+            "placeholder":"Last Name",
+            "name":"LastName",
+            "pattern":"^[a-zA-Z\\u4e00-\\u9fa5]{1,}$",
+            "warningWords":"Last Name",
+            "value":""
+        },{
+            "filedType":"filed-half",
+            "placeholder":"First Name",
+            "name":"FirstName",
+            "pattern":"^[a-zA-Z\\u4e00-\\u9fa5]{1,}$",
+            "warningWords":"First Name",
+            "value":""
+        },{
+            "filedRequired":false,
+            "placeholder":"Company (optional)",
+            "name":"Company_Optional",
+            "value":""
+        },{
+            "placeholder":"Address",
+            "name":"Address",
+            "filedType":"filed-two-thirds",
+            "pattern":"^[a-zA-Z\\u4e00-\\u9fa5][0-9a-zA-Z\\u4e00-\\u9fa5]{0,}$",
+            "warningWords":"Address",
+            "value":""
+        },{
+            "filedRequired":false,
+            "placeholder":"Apt, etc. (optional)",
+            "name":"Apt_Optional",
+            "filedType":"filed-one-thirds",
+            "value":""
+        },{
+           "placeholder":"City",
+            "name":"City",
+            "pattern":"^[a-zA-Z\\u4e00-\\u9fa5][0-9a-zA-Z\\u4e00-\\u9fa5]{0,}$",
+            "value":"" 
+        },{
+            "placeholder":"Country",
+            "name":"Country",
+            "filedType":"filed-three-eights",
+            "value":""
+        },{
+            "placeholder":"State",
+            "name":"State",
+            "filedType":"filed-three-eights",
+            "value":""
+        },{
+            "placeholder":"ZIP",
+            "name":"ZIP",
+            "filedType":"filed-quarter",
+            "inputType":"number",
+            "warningWords":"ZIP",
+            "pattern":"^[1-9][0-9]{5}$",
+            "maxlength":"6",
+            "value":""
+        },
+        {
+            "placeholder":"Phone",
+            "name":"Phone",
+            "inputType":"number",
+            "pattern":"^[1-9][3,4,5,7,8]{1}[0-9]{9}$",
+            "warningWords":"PhoneNumber",
+            "maxlength":"11",
+            "value":""
+        }
+    ],
+    "emailAddress":[{
+        "placeholder":"Email",
+        "name":"Email",
+        "inputType":"email",
+        "warningWords":"Email",
+        "value":""
+    }],
+    "cardInfo":[
+        {
+            "placeholder":"Card number",
+            "name":"Cardnumber",
+            "filedIcon":true,
+            "filedIconType":"filed-icon-lock",
+            "value":""
+        },{
+            "placeholder":"Name on card",
+            "name":"NameOnCard",
+            "filedType":"filed-half",
+            "value":""
+        },{
+            "filedType":"filed-quarter",
+            "placeholder":"MM / YY",
+            "name":"cardValidate",
+            "value":""
+        },{
+            "filedType":"filed-quarter",
+            "placeholder":"CVV",
+            "name":"CVV",
+            "filedIcon":true,
+            "filedIconType":"filed-icon-question",
+            "value":""
+        }
+    ],
+    "billingAddress":[
+        {
+            "filedType":"filed-half",
+            "placeholder":"Last Name",
+            "name":"LastName",
+            "pattern":"^[a-zA-Z\\u4e00-\\u9fa5]{1,}$",
+            "warningWords":"Last Name",
+            "value":""
+        },{
+            "filedType":"filed-half",
+            "placeholder":"First Name",
+            "name":"FirstName",
+            "pattern":"^[a-zA-Z\\u4e00-\\u9fa5]{1,}$",
+            "warningWords":"First Name",
+            "value":""
+        },{
+            "filedRequired":false,
+            "placeholder":"Company (optional)",
+            "name":"Company_Optional",
+            "value":""
+        },{
+            "placeholder":"Address",
+            "name":"Address",
+            "filedType":"filed-two-thirds",
+            "pattern":"^[a-zA-Z\\u4e00-\\u9fa5][0-9a-zA-Z\\u4e00-\\u9fa5]{0,}$",
+            "warningWords":"Address",
+            "value":""
+        },{
+            "filedRequired":false,
+            "placeholder":"Apt, etc. (optional)",
+            "name":"Apt_Optional",
+            "filedType":"filed-one-thirds",
+            "value":""
+        },{
+           "placeholder":"City",
+            "name":"City",
+            "pattern":"^[a-zA-Z\\u4e00-\\u9fa5][0-9a-zA-Z\\u4e00-\\u9fa5]{0,}$",
+            "value":"" 
+        },{
+            "placeholder":"Country",
+            "name":"Country",
+            "filedType":"filed-three-eights",
+            "value":""
+        },{
+            "placeholder":"State",
+            "name":"State",
+            "filedType":"filed-three-eights",
+            "value":""
+        },{
+            "placeholder":"ZIP",
+            "name":"ZIP",
+            "filedType":"filed-quarter",
+            "inputType":"number",
+            "warningWords":"ZIP",
+            "pattern":"^[1-9][0-9]{5}$",
+            "maxlength":"6",
+            "value":""
+        },
+        {
+            "placeholder":"Phone",
+            "name":"Phone",
+            "inputType":"number",
+            "pattern":"^[1-9][3,4,5,7,8]{1}[0-9]{9}$",
+            "warningWords":"PhoneNumber",
+            "maxlength":"11",
+            "value":""
+        }
+    ]
+}

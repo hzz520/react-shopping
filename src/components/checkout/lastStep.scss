@@ -1,0 +1,128 @@
+.section{
+    &.section-reduction{
+        .filed {
+            .filed-wrap{
+                display: table;
+                width:100%;
+                .wrapper{
+                    display: table-cell;
+                    width:100%;
+                    position: relative;
+                    padding-right: 16px;
+                }
+                .filed-label{
+                    width:initial;
+                    right:16px;
+                }
+                .btn{
+                    background-color: #262626;
+                    color: #fff;
+                    display: table-cell;
+                    min-width: 100px;
+                    vertical-align: middle
+                }
+                .btn i{
+                    margin-top:-2px;
+                }
+                .btn.btn-disable{
+                    background: #ccc;
+                    cursor:default;
+                    color: rgba(0,0,0,0.28628)
+                }
+            }
+        }
+    }
+    &.section-payment-method{
+        margin-top:2em;
+        .section-content{
+           .content-box .content-box-row{
+                overflow: hidden;
+                background-color: #fafafa;
+                &.radio-label-wrapper{
+                    display: table;
+                    box-sizing: border-box;
+                    width:100%;
+                    background: #fff;
+                }
+                @at-root{
+                    .radio-label{
+                        display: table-cell;
+                        width:100%;
+                        .radio-label-title,.radio-label-acess{
+                            vertical-align: middle
+                        }
+                        .radio-label-title{
+                            display: table-cell;
+                            width:100%;
+                        }
+                        .radio-label-acess{
+                            display: table-cell;
+                            padding-left: 14px;
+                            white-space: nowrap;
+                            .payment-icon{
+                                display: inline-block;
+                                width: 38px;
+                                height: 24px;
+                                margin:-2px 0 -5px 5px;
+                                background: url(https://cdn.shopify.com/s/assets/payment_icons/visa-104fe31176c68b0293cf54cfcee1f2ab564def635d065b0260e17e80aae139ee.svg) no-repeat center center;
+                                background-size: cover;
+                            }
+                            .payment-icon:nth-of-type(2){
+                                background-image:url(https://cdn.shopify.com/s/assets/payment_icons/master-c32dfa3399907a3e21ae77f834e052b862ad7f0b33a085ddd74d6337c868793e.svg)
+                            }
+                            .payment-icon:nth-of-type(3){
+                                background-image: url(https://cdn.shopify.com/s/assets/payment_icons/american_express-b6b211368d19a429ac2d4dedf304c8622338870747b20d79d9775a0ce1d8ac63.svg)
+                            }
+                            .payment-icon:last-of-type{
+                                background-image:url(https://cdn.shopify.com/s/assets/payment_icons/discover-c076f02bb17de06b93c754a81cdf60f5e0732653b5df3c575cd93214c1d809f9.svg)
+                            }
+                        }
+                    }
+                }
+           } 
+        }
+    }
+    &.section--billing-address{
+        margin-top: 2em;
+        .section-content .content-box .content-box-row{
+            &:not(:last-of-type){
+                cursor: pointer;
+                input,label{
+                    cursor: pointer
+                }
+            } 
+            &:last-of-type{
+                background: #fafafa;
+                display: none;
+            }
+            &:last-of-type.active{
+                display: block
+            }
+        }
+    }
+}
+.sc-terms{
+    margin: 2em 0;
+    font-weight: 400;
+    font-size: 12px;
+    .checkbox-wrapper{
+        display: table-cell;
+        padding-right:1em;
+    }
+    p{
+        display: table-cell;
+        line-height: 1.5;
+        a{
+            color: #1990C6;
+        }
+    }
+}
+@media (max-width: 749px){
+    .section-payment-method .section-content .content-box .content-box-row .radio-label-acess{
+        display: block;
+        padding-left:0;
+        .payment-icon:first-of-type{
+            margin-left: 0
+        }
+    }
+}

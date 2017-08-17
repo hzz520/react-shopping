@@ -1,0 +1,98 @@
+@charset "utf-8";
+// @import "../../libs/scss/bourbon/bourbon";
+
+// .login-to-register {
+//     cursor: pointer;
+//     &:hover {
+//         text-decoration: none;
+//     }
+// }
+
+// .main-title-intro {
+//     margin-left: 10px;
+// }
+
+// a.jstree-anchor {
+//     padding-right: 100px;
+//     position: relative;
+//     .treebtn {
+//         position: absolute;
+//         right: 8px;
+//         top: 0;
+//         display: none;
+//         em {
+//             font-size: 20px;
+//             cursor: pointer;
+//         }
+//     }
+//     &:hover .treebtn {
+//         display: block;
+//     }
+// }
+
+// .contents-item-btn {
+//     display: inline-block;
+// }
+
+// .sidebar {
+//     z-index: 1004;
+// }
+
+// .navbar {
+//     z-index: 1005;
+// }
+
+// .question-item {
+//     position: relative;
+//     .alert {
+//         margin-bottom: 0;
+//         padding: 10px;
+//     }
+//     .btn-primary {
+//         position: absolute;
+//         right: 60px;
+//         top: 10px;
+//         display: none;
+//     }
+//     .btn-default {
+//         position: absolute;
+//         right: 10px;
+//         top: 10px;
+//         display: none;
+//     }
+//     &:hover {
+//         .btn-primary, .btn-default {
+//             display: block;
+//         }
+//     }
+// }
+
+// a.link-other {
+//     cursor: pointer;
+// }
+
+// @media (max-width: 767px) {
+//     .sidebar {
+//         z-index: 1006;
+//         @include transition(all 0.5s ease 0s);
+//         &.active {
+//             left: 0;
+//         }
+//     }
+// }
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: transparent
+}
+ul,li{
+	list-style: none
+}
+a{
+	text-decoration:none;
+	color: #666;
+	cursor: pointer
+}
+
