@@ -37,7 +37,7 @@ module.exports = {
                 include: SRC_PATH
             }, {
                 test: /\.(svg|gif|png|jpg|jpeg)$/,
-                loader: 'url-loader?limit=(1024*8)&name=img/[name]-[hash:8].[ext]',
+                loader: 'url-loader?limit=1536&name=img/[name]-[hash:8].[ext]',
                 include: SRC_PATH
             }, {
                 test: /\.(swf|mp4|ogv|webm)$/,

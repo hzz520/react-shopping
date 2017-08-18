@@ -82,15 +82,15 @@ class Index extends Component {
         // $.post('http://localhost:8087/music/getVideo',{uid:67378662,mid:10,page:1},(data)=>{
         //     console.log(data)
         // })
-        Superagent.get(window.location.protocol+'//'+window.location.host+'/api/set/user')
-            .end((err,res)=>{
-                console.log(res.text)
-            })
-        Superagent.post(window.location.protocol+'//'+window.location.host+'/api/user/getIntroduceUser')
-            .send({uid:67378662,page:1})
-            .end((err,res)=>{
-                console.log(JSON.parse(res.text))
-            })
+        // Superagent.get(window.location.protocol+'//'+window.location.host+'/api/set/user')
+        //     .end((err,res)=>{
+        //         console.log(res.text)
+        //     })
+        // Superagent.post(window.location.protocol+'//'+window.location.host+'/api/user/getIntroduceUser')
+        //     .send({uid:67378662,page:1})
+        //     .end((err,res)=>{
+        //         console.log(JSON.parse(res.text))
+        //     })
 
         store.dispatch(getAllProducts(products))
         document.title = 'Spectacles by Snap Inc.'
@@ -184,10 +184,8 @@ class Index extends Component {
                         <video poster={ThumbImageV} preload="auto" autoPlay="autoplay" loop="loop" muted="muted"
                                playsInline data-scroll-visble>
                             {/*<source src="http://gslb.miaopai.com/stream/jr9wemZsZgCNuqkhwqpVDA__.mp4"/>   */}
-                            <source
-                                src="https://storage.googleapis.com/spectacles/2ae77833-8d66-40ac-8604-cfd2991e0f7d/circle.mp4"/>
-                            <source src="../media/circle.webm"></source>
-                            <source src="../media/circle.mp4"/>
+                            <source src={require('./video/hand.mp4')}/>
+                            <source src={require('./video/hand.webm')}/>
                         </video>
                     </div>
                 </div>
@@ -198,10 +196,8 @@ class Index extends Component {
                                 <video poster={ThumbImageV} preload="auto" autoPlay="autoplay" loop="loop" muted="muted"
                                        playsInline data-scroll-visble>
                                     {/*<source src="http://gslb.miaopai.com/stream/jr9wemZsZgCNuqkhwqpVDA__.mp4"/>*/}
-                                    <source
-                                        src="https://storage.googleapis.com/spectacles/3c8f9e6e-0b76-4cc1-9dc8-a89fa3687e3d.mp4"/>
-                                    <source src="../media/show.webm"></source>
-                                    <source src="../media/show.mp4"/>
+                                    <source src={require('./video/hand.mp4')}/>
+                                    <source src={require('./video/hand.webm')}/>
                                 </video>
                             </div>
                         </div>
@@ -311,12 +307,10 @@ class Index extends Component {
                 </div>
                 <div className="section-bot fullviewport">
                     <video poster={ThumbImageB} preload="auto" autoPlay="autoplay" loop="loop" muted="muted" playsInline
-                           data-scroll-visble>-->
+                           data-scroll-visble>
                         {/*<source src="http://gslb.miaopai.com/stream/jr9wemZsZgCNuqkhwqpVDA__.mp4"/>*/}
-                        <source
-                            src="https://storage.googleapis.com/spectacles/0c7494a8-59cb-43c5-955f-bb3ca109adb3.mp4"/>
-                        <source src="../media/bot.webm"/>
-                        <source src="../media/bot.mp4"/>
+                        <source src={require("./video/teaser.webm")}/>
+                        <source src={require("./video/teaser.mp4")}/>
                     </video>
                     <a className="btn" href="#">Find A Bot</a>
                 </div>
